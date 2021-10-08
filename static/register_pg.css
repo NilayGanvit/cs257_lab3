@@ -1,0 +1,71 @@
+body{
+    height: 125vmin;
+    background-color: lightblue;
+}
+h1{
+    color: blue;
+    font-size: 48px;
+}
+div{
+    text-align: center;
+    /* background-color: whitesmoke; */
+    /* border-radius: 6px; */
+    vertical-align: middle;
+    padding-top: 7%;
+    /* border: solid black 2px; */
+    height: 125vmin;
+}
+form{
+    box-shadow: 0 3px 6px rgb(0 0 0 / 15%), 0 12px 24px rgb(0 0 0 / 15%);
+    /* border: lightgray 2px solid; */
+    background-color: whitesmoke;
+    border-radius: 15px;
+    width: 38%;
+    height: 38%;
+    margin-left: 32%;
+    margin-right: 36%;
+    padding-top: 0.5%;
+}
+hr{
+    width: 95%;
+}
+.inp{
+    width: 93%;
+    height: 20%;
+    margin-bottom: 1.7%;
+    border: #dddfe2 solid 1px;
+    border-radius: 4px;
+    font-size: 15px;
+    outline: none !important;
+    padding-left: 10px;
+}
+.inp:focus{
+    box-shadow: 0 0 0 2px #c6dbf0;
+    border-color: #1877f2;
+}
+.btn{
+    margin-top: 3%;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 3%;
+    height: 17%;
+    border-radius: 6px;
+    width: 96%;
+    background-color: rgb(30, 143, 255);
+    color: white;
+    border: 0px;
+    height: 21%;
+}
+.btn:hover{
+    background-color: #166fe5;
+    cursor: pointer;
+}
+a{
+    font-size: 16px;
+    color: #1877f2;
+    font-weight: 500;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}

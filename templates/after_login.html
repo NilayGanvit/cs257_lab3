@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/after_login_pg.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav>
+        <a href="/login">Log In</a>
+	<a href="/register">Register</a>
+    </nav>
+
+    <div class="main">
+        <img src="../static/Indian_Institute_of_Technology,_Indore_Logo.png">
+        <div class="temp">Welcome to IIT Indore</div>
+    </div>
+    <br>
+    <div class="table_in">
+    <table class="tb_user">
+        <tr>
+            <td>Roll Number:</td>
+            <td>{{ user_id }}</td>
+        </tr>
+        <tr>
+            <td>Program</td>
+            <td>B.Tech.</td>
+        </tr>
+        <tr>
+            <td>Branch:</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>Mobile Number:</td>
+            <td>{{ mobile_number }}</td>
+        </tr>
+        <tr>
+            <td>Semester:</td>
+            <td>2021(Autumn)</td>
+        </tr>
+    </table>
+    </div>
+    <h2 style="text-align: center;">Courses Offered</h2>
+    <table class="tb_courses">
+        <thead>
+            <tr>
+                <td>Course Code</td>
+                <td>Course Name</td>
+                <td>Distribution</td>
+                <td>Credits</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>CS 201</td>
+                <td>Discrete Mathematical Structures </td>
+                <td>2-1-0</td>
+                <td>3.0</td>
+            </tr>
+
+            <tr>
+                <td>CS 203</td>
+                <td>Data Structures and Algorithms </td>
+                <td>2-1-0</td>
+                <td>3.0</td>
+            </tr>
+
+            <tr>
+                <td>CS 207</td>
+                <td>Data Base & Information Systems </td>
+                <td>3-0-0</td>
+                <td>3.0</td>
+            </tr>
+
+            <tr>
+                <td>CS 253</td>
+                <td>Data Structures and Algorithms Lab </td>
+                <td>0-0-3</td>
+                <td>1.5</td>
+            </tr>
+
+            <tr>
+                <td>CS 257</td>
+                <td>Data Base & Information Lab </td>
+                <td>0-0-3</td>
+                <td>1.5</td>
+            </tr>
+
+            <tr>
+                <td>IC 211</td>
+                <td>Experimental engineering Lab </td>
+                <td>0-0-3</td>
+                <td>1.5</td>
+            </tr>
+
+            <tr>
+                <td>MA 203</td>
+                <td>Complex Analysis and Differential Equation-II </td>
+                <td>3-1-0</td>
+                <td>4.0</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+</body>
+</html>

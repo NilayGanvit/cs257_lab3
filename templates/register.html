@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./static/register_pg.css">
+</head>
+<body>
+    <div>
+        <h1>Register an Account</h1>
+        <form action="/register" method="POST">
+            <input type="text" name="user_id" placeholder="User ID" class="inp" required>
+            <br>
+            <input type="password" name="pswd" placeholder="Password" class="inp" id="inp2" required>
+            <br>
+            <input type="text" name="mobile_number" id="" class="inp" placeholder="Mobile Number*" required>
+            <br>
+            <input type="submit" value="Register" class="btn">
+            <hr>
+            <a href="/">Login with registered account?</a>
+        </form>
+    </div>
+</body>
+</html>

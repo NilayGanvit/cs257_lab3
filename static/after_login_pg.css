@@ -1,0 +1,85 @@
+body{
+    align-content: center;
+    width: 100%;
+}
+nav{
+    background-color: darkslategray;
+    height: 35px;
+    padding-top: 10px;
+}
+a{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    height: 36px;
+    display: inline;
+    padding: 0.5rem 1rem;
+    
+}
+a:hover{
+    background-color: rgb(25, 43, 43);
+}
+.tb_user{
+    width: 75%;
+    margin-left: 26%;
+}
+.temp{
+    font-size: 50px;
+    margin-top: 35px;
+    padding-right: 10px;
+}
+img{
+    padding: 10px;
+    height: 105px;
+    float: left;
+}
+.main{
+    border: 2px black solid;
+    background-color: rgb(233,236,239);
+    height: 120px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgb(187, 180, 180);
+}
+
+.tb_courses{
+    border-collapse: collapse;
+    margin: 25px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.199);
+    width: 75%;
+    margin-left: 15%;
+}
+
+.tb_courses thead tr{
+    background-color: darkslategray;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tb_courses td{
+    padding: 12px 15px;
+
+}
+
+.tb_courses tbody tr{
+    border-bottom: 1px solid lightgray;
+}
+
+.tb_courses tbody tr:nth-of-type(even){
+    background-color: rgb(200,255,200);
+}
+
+.tb_courses tbody tr:nth-of-type(odd){
+    background-color: rgb(255,200,200);
+}
+
+.tb_courses tbody tr:last-of-type{
+    border-bottom: 3px solid darkslategray;
+}
+
+.tb_courses tbody tr:hover{
+    background-color: rgb(150, 146, 255);
+}
